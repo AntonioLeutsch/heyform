@@ -15,6 +15,10 @@ export const LOCALES_OPTIONS = [
     value: 'en'
   },
   {
+    label: 'Deutsch',
+    value: 'de'
+  },
+  {
     label: 'Polski',
     value: 'pl'
   },

@@ -80,7 +80,7 @@ export const Progress: FC = () => {
   return (
     <div className="heyform-progress">
       <CircularProgressbar current={state.percentage} />
-      <span>{state.percentage}{t('formBuilder.percentAnswered')}</span>
+      <span>{state.percentage}% beantwortet</span>
     </div>
   )
 }

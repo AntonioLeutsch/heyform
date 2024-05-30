@@ -6,6 +6,7 @@ import { locales } from '@/pages/form/views/FormComponents'
 
 import en from './en'
 import pl from './pl'
+import de from './de'
 import zhCn from './zhCn'
 import zhTw from './zhTw'
 
@@ -35,7 +36,12 @@ const resources = {
     }
   },
   fr: locales.fr,
-  de: locales.de
+  de: {
+    translation: {
+      ...de,
+      ...locales.de.translation
+    }
+  },
 }
 
 const LANG_ALIASES: Record<string, string> = {
